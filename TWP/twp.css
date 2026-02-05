@@ -5,5 +5,13 @@ h1{
 }
 
 body{
-    background: #d6b8ed;;
+    background: #d6b8ed;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    border: #4b2e83 2px solid;
 }

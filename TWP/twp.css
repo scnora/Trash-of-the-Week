@@ -1,6 +1,12 @@
 h1{
     color:#4b2e83;
     background:#d6b8ed ;
+    margin: 0;
+    padding: 0;
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+
 
 }
 
@@ -8,10 +14,13 @@ body{
     background: #d6b8ed;
     margin: 0;
     padding: 0;
+    font-size: 20px;
+    line-height: 150%;
 }
 
 .container{
-    width: 900px;
+    width: 972px;
     margin: 0 auto;
-    border: #4b2e83 2px solid;
+    background: #edddfa;
+    padding: 20px;
 }

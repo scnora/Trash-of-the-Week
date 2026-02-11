@@ -24,3 +24,39 @@ body{
     background: #edddfa;
     padding: 20px;
 }
+h2{
+    color:deeppink;
+}
+
+a{
+    color:#570246;
+}
+
+a:hover{
+    color:#ff2ed5;
+}
+
+.sitenav{
+    color: rgb(255, 255, 255);
+    background:#9d39cf;
+    padding: 10px;
+    
+}
+.sitenav a{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.sitenav a:hover{
+    color: rgb(0, 0, 0);
+    background:deeppink;
+    padding: 10px;
+    
+}
+.pagenav a{
+    color:#570246;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+}

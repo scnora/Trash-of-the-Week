@@ -40,11 +40,17 @@ a:hover{
     color:#ff2ed5;
 }
 
-.sitenav{
+
+.site-header{
     color: rgb(255, 255, 255);
     background:#9d39cf;
     padding: 15px;
-    
+
+}
+.sitenav{
+    color: rgb(255, 255, 255);
+    background:#9d39cf;
+    text-align: right;    
 }
 .sitenav a{
     color: rgb(255, 255, 255);
@@ -87,10 +93,13 @@ th{
 
 
 /*gallery*/
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+.gallery-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 20px ;
+    justify-items: center;
+    align-items: start;
+    justify-content: space-between;
 
 }
 
@@ -102,16 +111,39 @@ th{
 
 .gallery-item:hover {
   border: 1px solid #ff4ad2;
-  transform: scale(1.05);
+  transform: scale(1.03);
 
   
 }
 
 .gallery-item  {
-  width: 25%;
-  height: auto;
-  transition: 0.4s ease-in-out;
+    width: 300px; /*should match the width of your images + width of border (if any) */
+    text-align: center;
+    height: auto;
+    transition: 0.4s ease-in-out;
 
 
 }
+.gallery-item p {
+    margin: .25em 0;
+    line-height: 135%;
+}
 
+
+
+
+table i{
+    color:rgb(0, 0, 0);
+    size: 20px;
+    align-items: center;
+}
+
+table i.fa-hand-holding-heart{
+    color: rgb(255, 0, 0);
+}
+table i.fa-trash{
+    color: rgba(236, 167, 6, 0.733);
+}
+table i.fa-recycle{
+    color: rgb(74, 198, 7);
+}

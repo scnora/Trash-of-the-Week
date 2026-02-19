@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TWP</title>
     <link rel="stylesheet" href="twp.css"></head>
+    <script src="https://kit.fontawesome.com/3d87a6ee38.js" crossorigin="anonymous"></script>
 <body>
 
 
@@ -12,16 +13,18 @@
 
     <header class="site-header">
 
-        <!-- <a href="index.html" class="site-logo"> <img class="site-logo-image" src="images/site-logo.svg" alt="Name of Website"> </a>  -->
-    
-        <nav class="sitenav"> 
-            <a href="index.html">Home</a> <!-- this links to your main page (the one you're working at the moment) --> 
-            <a href="profile.html">Profile</a>
-            <!-- <a href="theory.html">Theory</a> -->
-            <!-- <a href="about.html">About</a> -->
-        </nav> 
-         <h1>Welcome to Trash of the Week</h1>
+        <div class="logo">
+        <a href="index.html" class="site-logo"> <img class="site-logo-image" src="images/site-logo.svg" alt="Name of Website"> </a> 
+        </div>   
 
+        <div class="nav">
+            <nav class="sitenav"> 
+                <a href="index.html">Home</a> <!-- this links to your main page (the one you're working at the moment) --> 
+                <a href="profile.html">Highlight</a>
+                <a href="theory.html">Theory</a>
+                <a href="about.html">About</a>
+            </nav> 
+        </div>
 
     </header><!-- site header ends -->
 
@@ -91,14 +94,48 @@
 
 
     <h2 id="gallery">Gallery</h2>
-    <img class="gallery-item" src="assets/receipt.JPG" alt="Gift Receipt" width="300px">
-    <img class="gallery-item" src="assets/bobby_pin.JPG" alt="Bobby Pin" width="300px">
-    <img  class="gallery-item" src="assets/box.JPG" alt="Hair Oil Box" width="300px">
-    <img class="gallery-item" src="assets/earmuff.jpg" alt="Earmuff" width="300px">
-    <img class="gallery-item" src="assets/foundation.JPG" alt="Foundation" width="300px">
-    <img class="gallery-item" src="assets/plushie.JPG" alt="Plushie" width="300px">
-    <img class="gallery-item" src="assets/lift_ticket.JPG" alt="Ski Lift Ticket" width="300px">
-    <img class="gallery-item" src="assets/phonecase.jpeg" alt="Phone Case" width="300px">
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="assets/receipt.JPG" alt="Gift Receipt" width="300px">
+            <p>Gift Receipt for Macy's</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="assets/gift_card.JPG" alt="Gift Card" width="300px">
+            <p>Gift Card from Lululemon</p>
+        </div>
+        <div class="gallery-item">
+            <img src="assets/bobby_pin.JPG" alt="Bobby Pin" width="300px">
+            <p>Bobby Pin </p>
+        </div>
+            <div class="gallery-item">
+            <img src="assets/box.JPG" alt="Hair Oil Box" width="300px">
+            <p>Hair Oil Box</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="assets/earmuff.jpg" alt="Earmuff" width="300px">
+            <p>Ugg's Earmuffs</p>
+        </div>
+        <div class="gallery-item">
+            <img src="assets/foundation.JPG" alt="Foundation" width="300px">
+            <p>Foundation</p>
+        </div>
+        <div class="gallery-item">
+            <img src="assets/plushie.JPG" alt="Plushie" width="300px">
+            <p>Old Plushie</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="assets/lift_ticket.JPG" alt="Ski Lift Ticket" width="300px">
+            <p>Gift Receipt for Macy's</p>
+        </div>
+        <div class="gallery-item">
+            <img src="assets/phonecase.jpeg" alt="Phone Case" width="300px">
+            <p>Phone Case</p>
+        </div>
+
+    </div>
     <p><a href="#">Back to top</a></p>
 
 
@@ -107,15 +144,15 @@
     <h2 id="data">Item Data</h2>
     <table>
     <tr><td>Item</td><td>Weight</td><td>Source</td><td>Location</td><td>Cost</td><td>Owned</td><td>Mode</td></tr>
-    <tr><td>Phone case</td><td>20g</td><td>Marshall’s</td><td>Bedroom</td><td>$10</td><td>5 years</td><td> Donation </td></tr>
-    <tr><td>Old plushie</td><td> 50g</td><td> Arcade machine</td><td> Bedroom</td><td> $5</td><td> 6 years</td><td>Donation </td></tr>
-    <tr><td>gift card</td><td>5g</td><td>Lululemon</td><td>Wallet</td><td>$100</td><td>1 month</td><td>Trash  </td></tr>
-    <tr><td>Hair oil box</td><td>10g</td><td>Ulta</td><td>Bathroom</td><td>Free</td><td>1 month</td><td>Recycle </td></tr>
-    <tr><td>Ski lift ticket</td><td>5g</td><td>Boyfriend</td><td>jacket</td><td>$70</td><td>1 month</td><td>Trash</td></tr>
-    <tr><td>Gift receipt</td><td>5g</td><td> Sister</td><td>Wallet</td><td>$52</td><td>1 month</td><td>Trash</td></tr>
-    <tr><td>Bobby pin</td><td>1g</td><td>Amazon</td><td>Bathroom</td><td><$1</td><td>4 months</td><td>Trash</td></tr>
-    <tr><td>Expired foundation</td><td>15g</td><td>Walmart</td><td>Makeup bag</td><td>$35</td><td>2 years</td><td>Trash</td></tr>
-    <tr><td>Earmuffs</td><td>300g</td><td>Uggs</td><td>closet</td><td>$150</td><td>8 years</td><td>Trash </td></tr>
+    <tr><td>Phone case</td><td>20g</td><td>Marshall’s</td><td>Bedroom</td><td>$10</td><td>5 years</td><td><i class="fa-solid fa-hand-holding-heart"></i></td></tr>
+    <tr><td>Old plushie</td><td> 50g</td><td> Arcade machine</td><td> Bedroom</td><td> $5</td><td> 6 years</td><td><i class="fa-solid fa-hand-holding-heart"></i> </td></tr>
+    <tr><td>gift card</td><td>5g</td><td>Lululemon</td><td>Wallet</td><td>$100</td><td>1 month</td><td><i class="fa-solid fa-trash"></i></td></tr>
+    <tr><td>Hair oil box</td><td>10g</td><td>Ulta</td><td>Bathroom</td><td>Free</td><td>1 month</td><td><i class="fa-solid fa-recycle"></i></td></tr>
+    <tr><td>Ski lift ticket</td><td>5g</td><td>Boyfriend</td><td>jacket</td><td>$70</td><td>1 month</td><td><i class="fa-solid fa-recycle"></i></td></tr>
+    <tr><td>Gift receipt</td><td>5g</td><td> Sister</td><td>Wallet</td><td>$52</td><td>1 month</td><td><i class="fa-solid fa-trash"></i></td></tr>
+    <tr><td>Bobby pin</td><td>1g</td><td>Amazon</td><td>Bathroom</td><td><$1</td><td>4 months</td><td><i class="fa-solid fa-trash"></i></td></tr>
+    <tr><td>Expired foundation</td><td>15g</td><td>Walmart</td><td>Makeup bag</td><td>$35</td><td>2 years</td><td><i class="fa-solid fa-trash"></i></td></tr>
+    <tr><td>Earmuffs</td><td>300g</td><td>Uggs</td><td>closet</td><td>$150</td><td>8 years</td><td><i class="fa-solid fa-recycle"></i></td></tr>
     </table>
 
     <p><a href="#">Back to top</a></p>

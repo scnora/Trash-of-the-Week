@@ -9,15 +9,16 @@
 <body>
 
 
-    <div class="container">
-
     <header class="site-header">
 
-        <div class="logo">
-        <a href="index.html" class="site-logo"> <img class="site-logo-image" src="images/site-logo.svg" alt="Name of Website"> </a> 
-        </div>   
+        <div class="header-container">
+            <div class="logo">
+            <a href="index.html" class="site-logo">
+                <i class="fa-solid fa-trash"></i>
+                <span class="logo-text">Wacky Waste</span>
+            </a>           
+            </div>   
 
-        <div class="nav">
             <nav class="sitenav"> 
                 <a href="index.html">Home</a> <!-- this links to your main page (the one you're working at the moment) --> 
                 <a href="profile.html">Highlight</a>
@@ -28,6 +29,9 @@
 
     </header><!-- site header ends -->
 
+    <div class="container">
+
+    <h1>Welcome to Trash</h1>
 
     <nav class="pagenav">
     <a  href="#preface">Preface</a> | 
@@ -36,6 +40,7 @@
     <a  href="#data">Data</a> | 
     <a  href="#coda">Coda </a>
     </nav>
+
 
 
 
@@ -143,7 +148,7 @@
 
     <h2 id="data">Item Data</h2>
     <table>
-    <tr><td>Item</td><td>Weight</td><td>Source</td><td>Location</td><td>Cost</td><td>Owned</td><td>Mode</td></tr>
+    <tr><th>Item</th><th>Weight</th><th>Source</th><th>Location</th><th>Cost</th><th>Owned</th><th>Mode</th></tr>
     <tr><td>Phone case</td><td>20g</td><td>Marshall’s</td><td>Bedroom</td><td>$10</td><td>5 years</td><td><i class="fa-solid fa-hand-holding-heart"></i></td></tr>
     <tr><td>Old plushie</td><td> 50g</td><td> Arcade machine</td><td> Bedroom</td><td> $5</td><td> 6 years</td><td><i class="fa-solid fa-hand-holding-heart"></i> </td></tr>
     <tr><td>gift card</td><td>5g</td><td>Lululemon</td><td>Wallet</td><td>$100</td><td>1 month</td><td><i class="fa-solid fa-trash"></i></td></tr>
@@ -154,6 +159,16 @@
     <tr><td>Expired foundation</td><td>15g</td><td>Walmart</td><td>Makeup bag</td><td>$35</td><td>2 years</td><td><i class="fa-solid fa-trash"></i></td></tr>
     <tr><td>Earmuffs</td><td>300g</td><td>Uggs</td><td>closet</td><td>$150</td><td>8 years</td><td><i class="fa-solid fa-recycle"></i></td></tr>
     </table>
+
+
+    <div class="table-key">
+    <p class="key"><strong>Key:</strong></p>
+    <p>
+        <i class="fa-solid fa-hand-holding-heart"></i> Donate &nbsp;&nbsp;
+        <i class="fa-solid fa-trash"></i> Trash &nbsp;&nbsp;
+        <i class="fa-solid fa-recycle"></i> Recycle
+    </p>
+    </div>
 
     <p><a href="#">Back to top</a></p>
 

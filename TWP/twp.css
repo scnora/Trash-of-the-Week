@@ -46,8 +46,9 @@ a{
 a:hover{
     color:#ff2ed5;
 }
-.site-logo:hover{
-    transform: scale(1.25);
+
+.logo{
+    width: 200px;
 
 }
 
@@ -59,7 +60,7 @@ img {
 .site-header {
     background: #832e80;
     width: auto;
-    padding: 15px 0;
+    padding: 30px 0;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
@@ -205,6 +206,7 @@ table i{
     color: rgb(74, 198, 7);
 }
 
+
 ul {
     list-style: none;
     padding: 0;
@@ -212,16 +214,17 @@ ul {
 }
 
 ul li {
+    text-align: center;
     background: white;
     margin: 15px 0;
     padding: 18px 25px;
     border-radius: 15px;
     box-shadow: 0 6px 18px rgba(75, 46, 131, 0.08);
-    transition: all 0.3s ease;
 }
 
 ul li:hover {
     transform: translateY(-4px);
+    color: #4b2e83;
     box-shadow: 0 10px 25px rgba(131, 46, 128, 0.18);
 }
 
@@ -234,4 +237,48 @@ ul li a {
 
 ul li a:hover {
     color: #832e80;
+}
+
+
+/*profile*/
+
+.me{
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+
+
+}
+
+.profile-pic{
+
+    width: 25%;
+    border-radius: 50%;
+}
+.bio{
+    flex: 5;
+
+}
+
+
+.socials{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    font-size: 40px;
+}
+.socials i{
+    color: #4b2e83;
+    transition: 0.3s ease;
+}
+
+.socials i:hover{
+    color: #ff2ed5;
+    transition: 0.3s ease;
+}
+
+.caption{
+    font-style: italic;
+    padding: 5px;
 }

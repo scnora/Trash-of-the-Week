@@ -25,13 +25,16 @@ body{
 
 
 .container {
-    width: 972px;
-    margin: 20px auto;
+    width: 900px;
+    margin: 60px auto;
     background: #f0e4ff;
-    padding: 40px;
-    border-radius: 15px;
+    padding: 60px;
+    border-radius: 20px;
     color: #3a3a3a;
+    box-shadow: 0 15px 40px rgba(75, 46, 131, 0.15);
+    position: relative;
 }
+
 h2{
     color:#832e80;
 }
@@ -43,7 +46,16 @@ a{
 a:hover{
     color:#ff2ed5;
 }
+.site-logo:hover{
+    transform: scale(1.25);
 
+}
+
+img {
+  display: block;
+  margin: auto;
+
+}
 .site-header {
     background: #832e80;
     width: auto;
@@ -91,7 +103,6 @@ a:hover{
 .pagenav a:hover{
     color:#ff2ed5;
     padding: 5px;
-    background: #9d39cf;
 }
 table {
     width: 85%;
@@ -192,4 +203,35 @@ table i{
 }
 .fa-recycle{
     color: rgb(74, 198, 7);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+ul li {
+    background: white;
+    margin: 15px 0;
+    padding: 18px 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(75, 46, 131, 0.08);
+    transition: all 0.3s ease;
+}
+
+ul li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(131, 46, 128, 0.18);
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff29f8;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: #832e80;
 }

@@ -20,6 +20,7 @@ body{
     padding: 0;
     font-size: 20px;
     line-height: 150%;
+    color: #3a3a3a;
 }
 
 
@@ -144,7 +145,6 @@ tr:nth-child(even) {
 
 .table-key i {
     margin-right: 5px;
-    font-size: 18px;
 }
 
 
@@ -232,7 +232,6 @@ ul li a {
     text-decoration: none;
     font-weight: bold;
     color: #ff29f8;
-    font-size: 18px;
 }
 
 ul li a:hover {
@@ -242,13 +241,28 @@ ul li a:hover {
 
 /*profile*/
 
-.me{
-    display: flex;
-    align-items: center; 
+.aboutsite{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 50px;
     gap: 20px;
+    align-items: center; 
 
 
 }
+
+.me
+{
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 50px;
+
+
+}
+
 
 .profile-pic{
 
@@ -257,6 +271,7 @@ ul li a:hover {
 }
 .bio{
     flex: 5;
+
 
 }
 
@@ -281,4 +296,12 @@ ul li a:hover {
 .caption{
     font-style: italic;
     padding: 5px;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  margin-top: 40px;
 }

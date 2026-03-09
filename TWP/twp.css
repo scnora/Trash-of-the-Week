@@ -103,7 +103,7 @@ img {
     padding: 5px;
 }
 table {
-    width: 85%;
+    width: 100%;
     margin: 40px auto;
     border-collapse: collapse;
     background: white;
@@ -160,7 +160,7 @@ tr:nth-child(even) {
 .gallery-item {
   margin: 5px;
   border: 1px solid #ccc;
-  width: 180px;
+  width: 200px;
 }
 
 .gallery-item:hover {
@@ -183,12 +183,16 @@ tr:nth-child(even) {
     line-height: 135%;
 }
 
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
 
 
 
 table i{
     color:rgb(0, 0, 0);
-    size: 20px;
+    size: 5px;
     align-items: center;
 }
 
